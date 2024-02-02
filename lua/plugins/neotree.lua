@@ -8,5 +8,6 @@ return {
 	},
 	config = function()
 		vim.keymap.set("n", "<C-n>", ":Neotree filesystem focus right<CR>", {})
+		vim.keymap.set("n", "<C-t>", ":Neotree filesystem toggle right<CR>", {})
 	end,
 }
